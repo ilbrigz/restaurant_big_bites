@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+eval("\n\nvar myLazyLoad = new LazyLoad();\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
 
 /***/ })
 
