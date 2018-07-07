@@ -1,0 +1,30 @@
+.hero.is-medium {
+	background: url('../../assets/images/Hero.jpg') no-repeat center; 
+	background-size: cover;
+	position: relative;
+
+}
+.hero.top::after {
+	content: '';
+	display: block;
+	background: #645149 url('../../assets/images/cutlery.png') repeat-x center ;
+	height: 60px ;
+background-size: 40px 40px;
+
+
+}
+.hero.top::before
+{
+	content:'';
+	position: absolute;
+	display:block;
+	height: 100px;
+	width: 100px;
+bottom: -20px;
+left: 50%;
+transform: translateX(-50%);
+	border-radius: 50%;
+	background: #fff url('../../assets/images/plate.png') no-repeat center;
+	background-size: 102px;
+
+}

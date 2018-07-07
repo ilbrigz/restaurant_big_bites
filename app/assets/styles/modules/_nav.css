@@ -1,0 +1,14 @@
+.navbar {
+	background-color: #F4EFEB !important;
+	box-shadow:0px 1px 10px rgba(0,0,0,.4);
+}
+.navbar-item {
+	line-height: 80px;
+}
+.navbar-burger {
+	margin-top: 20px;
+}
+#logo{
+	font-weight: 700;
+	font-size: 2rem;
+}

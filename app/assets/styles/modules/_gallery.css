@@ -1,0 +1,63 @@
+.gallery--title  {
+  background-color: #2574A9;
+  padding-bottom: 2rem;
+  & h1{font-family: 'Alex Brush', cursive;
+font-size: 50px;
+margin-top: -1.5rem;}
+& *  {color: #fff !important;}
+}
+
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  &__top, &__bottom {
+    display: flex;
+    & div, & picture {
+      display: flex;
+        flex-direction: row;
+       width: 100%;
+
+       & img {
+    object-fit: cover;
+    flex: 1;
+    height: 10rem;
+  overflow: hidden;
+  position: relative;
+      }
+    }
+  }
+}
+
+
+
+
+
+  @mixin atMedium {
+    .gallery{
+    &__top .gallery__image--container:nth-last-child(-n+2),
+    &__bottom .gallery__image--container:nth-last-child(-n+2){
+     display: none;
+    }
+}
+}
+  @mixin atSmall {
+    .gallery{
+    &__top .gallery__image--container:nth-last-child(-n+4),
+    &__bottom .gallery__image--container:nth-last-child(-n+4){
+     display: none;
+    }
+}
+}
+
+
+
+  @mixin atExtraSmall {
+    .gallery{
+    &__top .gallery__image--container:nth-last-child(-n+5),
+    &__bottom .gallery__image--container:nth-last-child(-n+5){
+     display: none;
+    }
+}
+}
+

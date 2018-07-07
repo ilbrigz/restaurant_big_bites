@@ -1,0 +1,72 @@
+.title.main-section {
+	margin-bottom: 4rem !important;
+}
+.sub-title {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+.main-content {
+margin-top: 2rem;
+position: relative;
+&:after{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background:url('../../assets/images/summer.png') center center no-repeat;
+	display: block;
+	background-size: cover;
+	left: 50%;
+	bottom: -140px;
+	transform: translateX(-50%);
+
+@mixin atSmall {	width: 80px;
+	height: 80px;
+	bottom: -80px;
+		}
+	}
+
+}
+.main-dish-container {
+	position:relative;
+overflow: visible !important;
+
+}
+.main-dish {
+	overflow:visible;
+	height: 20rem;
+background:url('../../assets/images/dish-big.png') center center no-repeat;
+background-size: contain;
+position: aboslute;
+
+}
+
+.main-content-inner {
+	margin-bottom: 3rem !important;
+}
+
+
+
+
+@mixin atSmall {
+.main-content-inner {
+	margin-bottom: 0 !important;
+}
+
+.main-dish {
+		height: 15rem;
+}
+.main-content {padding-bottom: 2.5rem;
+margin-top: 1rem;}
+.title.main-section {
+	margin-bottom: 2rem !important;
+}
+.sub-title {
+	font-size: 1.4rem;
+	margin-bottom: .5rem;
+}
+.main-content-inner {
+	margin-bottom: -1rem !important;
+}
+
+}
