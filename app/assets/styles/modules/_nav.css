@@ -12,3 +12,7 @@
 	font-weight: 700;
 	font-size: 2rem;
 }
+a.navbar-item:hover {
+    background-color: transparent;
+    color: #E0732D;
+}

@@ -592,6 +592,11 @@ left: 50%;
 	font-size: 2rem;
 }
 
+a.navbar-item:hover {
+    background-color: transparent;
+    color: #E0732D;
+}
+
 .title.main-section {
 	margin-bottom: 4rem !important;
 }
