@@ -1,2 +1,2 @@
-// import 'picturefill'; and other libraries
+import 'picturefill'
 import 'lazysizes';
